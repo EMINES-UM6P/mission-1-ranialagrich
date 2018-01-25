@@ -6,7 +6,7 @@
     android:gravity = "center"
     android:orientation = "vertical"
     android:padding="10dp"
-    android:background = "@color/background_color"
+    android:background = "@color/Background_color"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
@@ -14,28 +14,40 @@
 
 <EditText
     android:id="@+id/Name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:layout_marginBottom="10dp"
     android:background="@color/input_color"
     android:padding="10dp"
+    android:hint="@string/Name"
+
     />
-    />
+
     <!-- // TODO : Add EditText for user's email with (id="@+id/email", inputType="textEmailAddress", layout_marginBottom="10dp", background="@color/input_color", padding="10dp") -->
 
     <EditText
         android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:layout_marginBottom="10dp"
         android:background="@color/input_color"
         android:padding="10dp"
+        android:hint="@string/Email"
+
         />
 
     <!-- // TODO : Add EditText for user's password with (id="@+id/password", inputType="textPassword", layout_marginBottom="10dp", background="@color/input_color", padding="10dp") -->
     <EditText
         android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:layout_marginBottom="10dp"
         android:background="@color/input_color"
         android:padding="10dp"
+        android:hint="@string/Password"
+
         />
 
 
@@ -44,6 +56,8 @@
     <Button
         android:id="@+id/btnRegister"
         android:layout_marginTop="20dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:background="@color/btn_color"
         android:text="@string/btn_register"
         android:textColor="@color/white"/>
